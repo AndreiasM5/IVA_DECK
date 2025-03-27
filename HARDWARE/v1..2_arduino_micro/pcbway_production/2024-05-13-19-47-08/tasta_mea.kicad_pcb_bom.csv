@@ -1,0 +1,5 @@
+﻿designator,quantity,value,pack,mpn,mount_type
+"D1, D2, D3, D4, D5, D6, D7, D8, D9",9,Diode,DO-35,,tht
+"RV1, RV2, RV3",3,R_Potentiometer,Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,,tht
+"S1, S2, S3, S4, S5, S6, S7, S8, S9",9,Keyswitch,MX_PCB_1.00u,,tht
+U1,1,Arduino_Pro_Micro,Arduino_Pro_Micro,,tht

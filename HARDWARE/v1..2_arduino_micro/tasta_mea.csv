@@ -1,0 +1,5 @@
+Reference,Value,Datasheet,Footprint,Qty,DNP
+"D1,D2,D3,D4,D5,D6,D7,D8,D9",Diode,,ScottoKeebs_Scotto:DO-35,9,
+"RV1,RV2,RV3",R_Potentiometer,~,Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,3,
+"S1,S2,S3,S4,S5,S6,S7,S8,S9",Keyswitch,~,ScottoKeebs_MX:MX_PCB_1.00u,9,
+U1,Arduino_Pro_Micro,,ScottoKeebs_MCU:Arduino_Pro_Micro,1,
