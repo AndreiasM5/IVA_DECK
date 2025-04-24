@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D2, D3, D4, D5, D6, D7, D8, D9",DO-35,9,Diode,
+DISPLAY,PinHeader_1x08_P2.54mm_Vertical,1,ST7789,
+J2,PinHeader_1x06_P2.54mm_Vertical,1,Card_reader,
+J4,PinHeader_1x03_P2.54mm_Vertical,1,IMNP441_Dreapta,
+MICROFON,PinHeader_1x03_P2.54mm_Vertical,1,IMNP441_stanga,
+PROXI,PinHeader_1x06_P2.54mm_Vertical,1,VL53L0X,
+"RV1, RV2, RV3",Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,3,R_Potentiometer,
+"S1, S2, S3, S4, S5, S6, S7, S8, S9",MX_PCB_1.00u,9,Keyswitch,
+U3,MODULE_ESP32-DEVKITC-32D,1,ESP32-DEVKITC-32D,
