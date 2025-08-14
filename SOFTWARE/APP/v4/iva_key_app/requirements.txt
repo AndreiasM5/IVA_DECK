@@ -1,0 +1,7 @@
+PyQt6
+speech_recognition
+pynput
+pyserial
+json
+pycaw
+keyboard

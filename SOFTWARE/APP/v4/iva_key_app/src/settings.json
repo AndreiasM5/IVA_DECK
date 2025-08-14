@@ -1,0 +1,13 @@
+{
+    "taste_macro_map": {
+        "T1": "Copiaza",
+        "T2": "Pasteaza",
+        "T3": "select",
+        "T4": "prev_song",
+        "T5": "play",
+        "T7": "paginaNoua",
+        "T6": "next_song",
+        "T9": "poza",
+        "T8": "cauta"
+    }
+}
