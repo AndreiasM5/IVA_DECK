@@ -1,7 +1,7 @@
 PyQt6
-speech_recognition
-pynput
 pyserial
-json
-pycaw
+pynput
 keyboard
+pycaw; sys_platform == "win32"
+comtypes; sys_platform == "win32"
+pywin32; sys_platform == "win32"

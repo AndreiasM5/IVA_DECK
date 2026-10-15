@@ -1,0 +1,3 @@
+# Optional experimental voice module; not used by the active GUI.
+SpeechRecognition
+PyAudio
