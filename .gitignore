@@ -23,3 +23,10 @@ _autosave*
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Windows V5 build outputs
+SOFTWARE/APP/v5/build/
+SOFTWARE/APP/v5/dist/
+SOFTWARE/APP/v5/release/
+application.log
+.build-venv/

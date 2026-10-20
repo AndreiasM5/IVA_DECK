@@ -1,0 +1,13 @@
+{
+    "macros": {
+        "Copiaza": "Ctrl+c",
+        "Pasteaza": "Ctrl+v",
+        "select": "CTRL+A",
+        "cauta": "Ctrl+f",
+        "paginaNoua": "Ctrl+n",
+        "poza": "CMD+SHIFT+S",
+        "play": "MEDIA_PLAY_PAUSE",
+        "next_song": "MEDIA_NEXT",
+        "prev_song": "MEDIA_PREVIOUS"
+    }
+}

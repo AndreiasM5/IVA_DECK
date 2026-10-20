@@ -1,0 +1,36 @@
+IVA DECK 5.0.0 — Windows 10/11 x64 (Windows 10 21H2 sau mai nou)
+Autor: Ioan-Andrei Ivașcu
+https://github.com/AndreiasM5/IVA_DECK
+
+INSTALARE
+Descarcă IVA-DECK-5.0.0-Setup-x64.exe din Releases și urmează installerul.
+Nu ai nevoie de Python. Pornește IVA DECK din Start sau de pe Desktop.
+
+BLUETOOTH
+1. Pornește tastatura și asociază IVA_Deck_FINAL în Setările Windows > Bluetooth.
+2. În IVA DECK > Conexiune, apasă Caută din nou porturile.
+3. Selectează portul serial Bluetooth de ieșire și apasă Conectează Bluetooth.
+   Numărul COM diferă între calculatoare; COM3 nu este o valoare universală.
+4. Apasă o tastă fizică: indicatorul trebuie să arate „date primite”.
+
+USB
+Conectează cablul, selectează portul USB în Conexiune și apasă Conectează USB.
+Dacă portul lipsește, folosește driverul oficial al convertorului USB al plăcii.
+Bluetooth: 9600 baud. USB: 115200 baud. Închide Arduino Serial Monitor și alte aplicații care folosesc același port.
+
+UTILIZARE
+Taste & macro-uri: click pentru atribuire; tastele fizice execută macro-urile.
+Bibliotecă macro: creare, editare, ștergere și înregistrarea unei combinații.
+Potențiometrele animate afișează datele fizice; Volum configurează țintele audio.
+Dispozitiv: proximitate, buzzer și text LCD. Imaginile SD și AI nu sunt incluse.
+
+DATE
+Macro-urile, țintele audio și ultimul port sunt salvate în %APPDATA%\IVA DECK.
+Ultimul port disponibil este reîncercat la pornire. Actualizările și dezinstalarea
+păstrează configurația. Log local: application.log. Fără cont sau telemetrie.
+
+LICENȚĂ
+V5 este gratuită, GPLv3. Sursa și build-ul sunt pe GitHub.
+Primul release nu are certificat de semnare digitală; Windows poate afișa un
+publisher necunoscut. Verifică proveniența și SHA256SUMS.txt. Nu dezactiva antivirusul.
+Installerul nu schimbă firmware-ul tastaturii.

@@ -6,7 +6,7 @@
 
 **9 mechanical keys · 3 volume controls · LCD + microSD · USB / Bluetooth · Python + PyQt6**
 
-[Demo](docs/media/iva-deck-demo.mp4) · [Get started](docs/getting-started.md) · [Hardware](docs/hardware.md) · [Protocol](docs/protocol.md) · [AI experiment](docs/behavioral-recognition.md) · [Română](docs/README.ro.md)
+[Download Windows app](https://github.com/AndreiasM5/IVA_DECK/releases/latest) · [Install V5](docs/windows-app-v5.ro.md) · [Demo](docs/media/iva-deck-demo.mp4) · [Get started](docs/getting-started.md) · [Hardware](docs/hardware.md) · [Protocol](docs/protocol.md) · [AI experiment](docs/behavioral-recognition.md) · [Română](docs/README.ro.md)
 
 <img src="docs/media/iva-deck-device.jpg" alt="IVA DECK with nine pink keys, three knobs, sensors, and a color display" width="340">
 
@@ -17,6 +17,18 @@
 IVA DECK combines a custom PCB, ESP32 electronics, embedded software, a Windows desktop application, and a behavioral recognition experiment. Nine programmable keys handle shortcuts and media actions, three physical knobs control application volume, and the companion app exposes the display, storage, buzzer, and proximity sensor.
 
 The original academic project was presented in June 2025 at the Faculty of Mathematics and Computer Science, University of Bucharest, as **“Tastatură Inteligentă cu Recunoaștere Comportamentală asistată de AI.”**
+
+## Windows app — V5
+
+**[Download the Windows installer](https://github.com/AndreiasM5/IVA_DECK/releases/latest)** · [Ghid de instalare în română](docs/windows-app-v5.ro.md) · [Source and build instructions](SOFTWARE/APP/v5/)
+
+Install **IVA-DECK-5.0.0-Setup-x64.exe**, pair your deck over Bluetooth or connect USB, then select its port in **Conexiune**. No separate Python installation is needed. Supports Windows 10 21H2+ / Windows 11 x64.
+
+![IVA DECK V5 dashboard](docs/media/app-v5-dashboard.png)
+
+V5 adds a purple/pink interface, macro labels and assignment dialogs, an editable macro library and three animated potentiometers. The **Volum** page selects audio targets. Macros, audio targets and the last port are saved per user. AI and SD-image workflows are outside this release. V4 and the historical project documentation remain available.
+
+The V5 application is free software under [GPLv3](SOFTWARE/APP/v5/LICENSE). This first installer is unsigned; see the release notes and SHA-256 checksums.
 
 ## See it working
 
